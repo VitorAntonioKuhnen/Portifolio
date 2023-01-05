@@ -8,8 +8,16 @@
 }
 
 body{
+    height: 100%;
+}
+
+#pagina{
+    position: fixed
+    ;
     height: 100vh;
+    width: 100%;
     background-image: linear-gradient(to right top, #ffb300, #5a70a0 ,#7965d3, #0dfab3);
+
 }
 
 #cabecario{
@@ -40,7 +48,12 @@ body{
 }
 
 #conteudo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
     padding: 2% 5%;
+    gap: 7%;
     
 }
 
@@ -52,4 +65,30 @@ body{
 #imagem{
     border-radius: 25px;
     width: 150px;
+}
+#int_pessoais{
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+    gap: 15%;
+}
+
+#info_pessoal{
+    display: flex;
+    
+
+}
+
+#icons{
+    display: flex;
+    gap: 5%;
+}
+
+#icon{
+    font-size: 150%;
+}
+
+#sobre{
+    display: flex;
+    gap: 4%;
 }
